@@ -2,9 +2,9 @@ function validation(){
     let username = 'as@dasdas'
     let password = '122s'   
     
-    const isUsername = username.length <= 5 ? 'username more than 5 character': 'True'
+    const isUsername = username.length <= 5 ? 'username must more than 5 character': 'True'
     console.log(isUsername)
-    const isPassword = password.length <= 8 ? 'password more than 8 character': 'True'
+    const isPassword = password.length <= 8 ? 'password must more than 8 character': 'True'
     console.log(isPassword)
 
     var regexAlpha = /^[a-zA-Z0-9]*$/
