@@ -7,7 +7,7 @@ function validation(){
     const isPassword = password.length <= 8 ? 'password must more than 8 character': 'True'
     console.log(isPassword)
 
-    var regexAlpha = /^[a-zA-Z0-9]*$/
+    const regexAlpha = /^[a-zA-Z0-9]*$/
     var regexUsername = regexAlpha.test(username)
     if(regexUsername == false)
     {
